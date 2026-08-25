@@ -1,0 +1,43 @@
+{
+  "name": "telehealth-backend",
+  "version": "1.0.0",
+  "description": "TeleHealth Consultation Clinic Backend API",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "watch": "ts-node --watch src/server.ts"
+  },
+  "keywords": ["telehealth", "api", "healthcare", "consultation"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "mysql2": "^3.6.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "helmet": "^7.0.0",
+    "express-rate-limit": "^6.10.0",
+    "joi": "^17.9.2",
+    "nodemailer": "^6.9.4",
+    "socket.io": "^4.7.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/cors": "^2.8.13",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/multer": "^1.4.7",
+    "@types/nodemailer": "^6.4.9",
+    "@types/uuid": "^9.0.2",
+    "@types/node": "^20.4.8",
+    "typescript": "^5.1.6",
+    "ts-node": "^10.9.1",
+    "nodemon": "^3.0.1"
+  }
+}
